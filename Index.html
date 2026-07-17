@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Warid Airways | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0b0f19;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    background:#0b0f19;
+    z-index:10;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#00d9ff;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+}
+
+nav a:hover{
+    color:#00d9ff;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:55px;
+}
+
+.hero span{
+    color:#00d9ff;
+}
+
+.hero p{
+    max-width:700px;
+    margin:20px auto;
+    color:#bbb;
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#00d9ff;
+    color:black;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+section{
+    padding:70px 8%;
+}
+
+.title{
+    text-align:center;
+    font-size:35px;
+    margin-bottom:40px;
+    color:#00d9ff;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#151c2c;
+    padding:30px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#00d9ff;
+    margin-bottom:15px;
+}
+
+.skills span{
+    display:inline-block;
+    background:#151c2c;
+    padding:10px 20px;
+    border-radius:20px;
+    margin:8px;
+}
+
+.project{
+    background:#151c2c;
+    padding:25px;
+    border-radius:15px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#050810;
+    color:#aaa;
+}
+
+@media(max-width:700px){
+.hero h1{
+font-size:38px;
+}
+
+nav{
+display:none;
+}
+}
+
+</style>
+</head>
+
+
+<body>
+
+<header>
+<div class="logo">WA</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<div>
+
+<h1>Hello, I'm <span>Warid</span></h1>
+
+<p>
+A passionate developer creating modern websites, digital projects,
+and creative solutions using technology.
+</p>
+
+<a class="btn" href="#projects">
+View My Work
+</a>
+
+</div>
+
+</section>
+
+
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="card">
+
+<p>
+I am a creative technology enthusiast focused on web development,
+design, and building useful digital experiences.
+I enjoy learning new skills and turning ideas into real projects.
+</p>
+
+</div>
+
+</section>
+
+
+
+
+<section id="skills">
+
+<h2 class="title">My Skills</h2>
+
+<div class="skills">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Web Design</span>
+<span>GitHub</span>
+<span>Problem Solving</span>
+
+</div>
+
+</section>
+
+
+
+
+<section id="projects">
+
+<h2 class="title">My Projects</h2>
+
+<div class="card-container">
+
+
+<div class="project">
+
+<h3>Portfolio Website</h3>
+
+<p>
+A personal website designed to showcase my skills,
+projects and achievements.
+</p>
+
+</div>
+
+
+
+<div class="project">
+
+<h3>Future Projects</h3>
+
+<p>
+More innovative technology projects coming soon.
+</p>
+
+</div>
+
+
+<div class="project">
+
+<h3>Creative Designs</h3>
+
+<p>
+Modern designs and digital experiences.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<section id="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<div class="card">
+
+<p>Email: your-email@example.com</p>
+
+<p>GitHub: WaridAirways256-stack</p>
+
+</div>
+
+</section>
+
+
+
+
+<footer>
+
+© 2026 Warid Airways. All Rights Reserved.
+
+</footer>
+
+
+</body>
+</html>
